@@ -1,2 +1,6 @@
 # RBF-model-global-approximation-control-for-manipulator
- 
+Adaptive control of robot manipulator RBF network based on model global approximation, reference to [1] and [2], A neural network controller for serial-link robot manipulator is developed. The NN has two layers so that linearity in the parameters holds, but network functional reconstruction error and manipulator disturbance input are taken as nonzero. The structure of the NN controller is derived using a filtered errorlpassivity approach, leading to new NN passivity properties. On-line weight tuning algorithms including a correction term to backpropagation, plus an added robustifying signal, guarantee tracking as well as bounded NN weights. 
+reference: 
+[1] Liu JinKun. Robot Control System Design and MATLAB Simulation[M]. Tsinghua University Press, 2008.
+[2] Lewis F L, Liu K, Yesildirek A. Neural net robot controller with guaranteed tracking performance[J]. IEEE transactions on neural networks, 1995, 6(3): 703-715.
+link: https://shi.buaa.edu.cn/liujinkun/zh_CN/jxzy/8049/list/index.htm
